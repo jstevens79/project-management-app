@@ -35,9 +35,13 @@
               <h2>{{activeTask.task_name}}</h2>
               {{> status-select this}}
             </div>
+            <div class="assignee">
+               <h4>Assigned to: {{getUserName users activeTask.UserId}}</h4>
+            </div>
             <div class="taskDetails">
               <h4>Due Date: {{formatDate activeTask.goal_end}}</h4>
               {{#if isAdmin}}
+              
               <div class="projectAdminButtons">
                 {{!-- <button id="taskEdit" data-project-id={{project.id}} data-task-id={{activeTask.id}} class="button-blue-small-light">Edit Task</button> --}}
                 <button id="taskDelete" data-project-id={{project.id}} data-task-id={{activeTask.id}} class="button-gray-small-light">Delete Task</button>

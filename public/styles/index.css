@@ -793,6 +793,13 @@ html, body {
     justify-content: space-between;
     align-items: center;
     border-bottom: solid 1px #d4d9e6; }
+    .taskDetailsContainer .taskTitle h2 {
+      padding-right: 40px; }
+  .taskDetailsContainer .assignee {
+    padding: 20px;
+    border-bottom: solid 1px #d4d9e6;
+    font-weight: bold;
+    color: #4977f7; }
   .taskDetailsContainer article h2 {
     margin-bottom: 10px; }
   .taskDetailsContainer article .taskDetails {
