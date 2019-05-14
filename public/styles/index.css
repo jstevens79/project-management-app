@@ -1130,6 +1130,9 @@ html, body {
     min-width: 300px;
     background: white;
     border-radius: 4px; }
+    .loginContainer .formContainer p {
+      padding-top: 1em;
+      font-size: 1.25em; }
     .loginContainer .formContainer .logo {
       color: #4977f7;
       font-size: 2.44141em;

@@ -19,6 +19,11 @@
     background: white;
     border-radius: $border-radius;
 
+    p {
+      padding-top: 1em;
+      font-size: ms(1);
+    }
+
     .logo {
       color: $color1;
       font-size: ms(4);
